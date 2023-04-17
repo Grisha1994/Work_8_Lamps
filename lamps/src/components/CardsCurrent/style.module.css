@@ -1,0 +1,12 @@
+.lamps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px; 
+}
+
+@media (max-width: 992px) {
+    .lamps {
+        flex-wrap: wrap;
+        margin-bottom: 0;  
+    }
+}
